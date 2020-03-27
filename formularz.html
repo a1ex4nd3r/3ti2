@@ -1,0 +1,21 @@
+<head>
+	<title>Formularz</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form name="formularz" action="formularz.php" method="POST">
+		
+		Imie i nazwisko:<input type="text" name="imie"><br>
+		Wiek:<input type="number" name="wiek"><br><br>
+		Gra:<br>
+		<select name="gra">
+			<option>Gra ...</option>
+		</select><br><br>
+		<input type="radio" name="gram_na" value="konsola"> - Konsoli<br>
+		<input type="radio" name="gram_na" value="pc"> - PC<br>
+		Co jesz:<br>
+		<label><input type="checkbox" name="jedzenie[]" value="pizza">Pizza</label><br>
+		<input type="submit" value="Wyślij!">
+		<input type="reset" value="Zresetuj">
+	</form>
+</body>
